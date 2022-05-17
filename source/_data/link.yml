@@ -5,6 +5,26 @@
       link: https://cd.dlusec.cn/
       avatar: /img/DLUSEC.png
       descr: DLUSEC社区
+    - name: 数据中心（内网）
+      link: https://sso.dlusec.cn/
+      avatar: /img/DLUSEC.png
+      descr: DLUSEC数据中心
+    - name: 网盘（内网）
+      link: https://disk.dlusec.cn/
+      avatar: /img/DLUSEC.png
+      descr: DLUSEC网盘
+    - name: CTF（内网）
+      link: https://ctf.dlusec.cn/
+      avatar: /img/DLUSEC.png
+      descr: DLUSEC CTF
+    - name: DVWA（内网）
+      link: https://dvwa.dlusec.cn/
+      avatar: /img/DLUSEC.png
+      descr: DLUSEC DVWA
+    - name: SQL（内网）
+      link: https://sql.dlusec.cn/
+      avatar: /img/DLUSEC.png
+      descr: DLUSEC SQL
 
 #- class_name: 友情链接
 #  class_desc: 小伙伴们~
