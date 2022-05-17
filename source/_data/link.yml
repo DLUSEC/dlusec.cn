@@ -1,6 +1,10 @@
 - class_name: DLUSEC服务
   class_desc: 我们的服务
   link_list:
+    - name: 信息登记
+      link: http://120.78.239.13/welcome.html
+      avatar: /img/DLUSEC.png
+      descr: DLUSEC信息登记
     - name: 社区（内网）
       link: https://cd.dlusec.cn/
       avatar: /img/DLUSEC.png
