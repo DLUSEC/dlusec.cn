@@ -30,10 +30,14 @@
       avatar: /img/DLUSEC.png
       descr: DLUSEC SQL
 
-#- class_name: 友情链接
-#  class_desc: 小伙伴们~
-#  link_list:
-#    - name: NISA
-#      link: https://fjnusec.cn/
-#      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-#      descr: 福建师范大学网络与信息安全协会
+- class_name: 友情链接
+  class_desc: 小伙伴们~
+  link_list:
+    - name: NISA
+      link: https://fjnusec.cn/
+      avatar: https://tuchuang-1306596129.cos.ap-guangzhou.myqcloud.com/NISA.jpg
+      descr: 福建师范大学网络与信息安全协会
+    - name: XMUTSEC
+      link: https://www.xmutsec.com/
+      avatar: /img/XMUTSEC.png
+      descr: 厦门理工学院信息安全协会
