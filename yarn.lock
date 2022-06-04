@@ -2,99 +2,99 @@
 # yarn lockfile v1
 
 
-"@algolia/cache-browser-local-storage@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.13.0.tgz"
+"@algolia/cache-browser-local-storage@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.13.1.tgz#ffacb9230119f77de1a6f163b83680be999110e4"
   dependencies:
-    "@algolia/cache-common" "4.13.0"
+    "@algolia/cache-common" "4.13.1"
 
-"@algolia/cache-common@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/cache-common/-/cache-common-4.13.0.tgz"
+"@algolia/cache-common@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/cache-common/-/cache-common-4.13.1.tgz#c933fdec9f73b4f7c69d5751edc92eee4a63d76b"
 
-"@algolia/cache-in-memory@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/cache-in-memory/-/cache-in-memory-4.13.0.tgz"
+"@algolia/cache-in-memory@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/cache-in-memory/-/cache-in-memory-4.13.1.tgz#c19baa67b4597e1a93e987350613ab3b88768832"
   dependencies:
-    "@algolia/cache-common" "4.13.0"
+    "@algolia/cache-common" "4.13.1"
 
-"@algolia/client-account@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/client-account/-/client-account-4.13.0.tgz"
+"@algolia/client-account@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/client-account/-/client-account-4.13.1.tgz#fea591943665477a23922ab31863ad0732e26c66"
   dependencies:
-    "@algolia/client-common" "4.13.0"
-    "@algolia/client-search" "4.13.0"
-    "@algolia/transporter" "4.13.0"
+    "@algolia/client-common" "4.13.1"
+    "@algolia/client-search" "4.13.1"
+    "@algolia/transporter" "4.13.1"
 
-"@algolia/client-analytics@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/client-analytics/-/client-analytics-4.13.0.tgz"
+"@algolia/client-analytics@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/client-analytics/-/client-analytics-4.13.1.tgz#5275956b2d0d16997148f2085f1701b6c39ecc32"
   dependencies:
-    "@algolia/client-common" "4.13.0"
-    "@algolia/client-search" "4.13.0"
-    "@algolia/requester-common" "4.13.0"
-    "@algolia/transporter" "4.13.0"
+    "@algolia/client-common" "4.13.1"
+    "@algolia/client-search" "4.13.1"
+    "@algolia/requester-common" "4.13.1"
+    "@algolia/transporter" "4.13.1"
 
-"@algolia/client-common@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/client-common/-/client-common-4.13.0.tgz"
+"@algolia/client-common@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-4.13.1.tgz#3bf9e3586f20ef85bbb56ccca390f7dbe57c8f4f"
   dependencies:
-    "@algolia/requester-common" "4.13.0"
-    "@algolia/transporter" "4.13.0"
+    "@algolia/requester-common" "4.13.1"
+    "@algolia/transporter" "4.13.1"
 
-"@algolia/client-personalization@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/client-personalization/-/client-personalization-4.13.0.tgz"
+"@algolia/client-personalization@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/client-personalization/-/client-personalization-4.13.1.tgz#438a1f58576ef19c4ad4addb8417bdacfe2fce2e"
   dependencies:
-    "@algolia/client-common" "4.13.0"
-    "@algolia/requester-common" "4.13.0"
-    "@algolia/transporter" "4.13.0"
+    "@algolia/client-common" "4.13.1"
+    "@algolia/requester-common" "4.13.1"
+    "@algolia/transporter" "4.13.1"
 
-"@algolia/client-search@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/client-search/-/client-search-4.13.0.tgz"
+"@algolia/client-search@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/client-search/-/client-search-4.13.1.tgz#5501deed01e23c33d4aaa9f9eb96a849f0fce313"
   dependencies:
-    "@algolia/client-common" "4.13.0"
-    "@algolia/requester-common" "4.13.0"
-    "@algolia/transporter" "4.13.0"
+    "@algolia/client-common" "4.13.1"
+    "@algolia/requester-common" "4.13.1"
+    "@algolia/transporter" "4.13.1"
 
 "@algolia/events@^4.0.1":
   version "4.0.1"
   resolved "https://registry.npmjs.org/@algolia/events/-/events-4.0.1.tgz"
 
-"@algolia/logger-common@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/logger-common/-/logger-common-4.13.0.tgz"
+"@algolia/logger-common@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/logger-common/-/logger-common-4.13.1.tgz#4221378e701e3f1eacaa051bcd4ba1f25ddfaf4d"
 
-"@algolia/logger-console@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/logger-console/-/logger-console-4.13.0.tgz"
+"@algolia/logger-console@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/logger-console/-/logger-console-4.13.1.tgz#423d358e4992dd4bceab0d9a4e99d1fd68107043"
   dependencies:
-    "@algolia/logger-common" "4.13.0"
+    "@algolia/logger-common" "4.13.1"
 
-"@algolia/requester-browser-xhr@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.13.0.tgz"
+"@algolia/requester-browser-xhr@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.13.1.tgz#f8ea79233cf6f0392feaf31e35a6b40d68c5bc9e"
   dependencies:
-    "@algolia/requester-common" "4.13.0"
+    "@algolia/requester-common" "4.13.1"
 
-"@algolia/requester-common@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/requester-common/-/requester-common-4.13.0.tgz"
+"@algolia/requester-common@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-common/-/requester-common-4.13.1.tgz#daea143d15ab6ed3909c4c45877f1b6c36a16179"
 
-"@algolia/requester-node-http@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/requester-node-http/-/requester-node-http-4.13.0.tgz"
+"@algolia/requester-node-http@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-node-http/-/requester-node-http-4.13.1.tgz#32c63d4c009f22d97e396406de7af9b66fb8e89d"
   dependencies:
-    "@algolia/requester-common" "4.13.0"
+    "@algolia/requester-common" "4.13.1"
 
-"@algolia/transporter@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/@algolia/transporter/-/transporter-4.13.0.tgz"
+"@algolia/transporter@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@algolia/transporter/-/transporter-4.13.1.tgz#509e03e9145102843d5be4a031c521f692d4e8d6"
   dependencies:
-    "@algolia/cache-common" "4.13.0"
-    "@algolia/logger-common" "4.13.0"
-    "@algolia/requester-common" "4.13.0"
+    "@algolia/cache-common" "4.13.1"
+    "@algolia/logger-common" "4.13.1"
+    "@algolia/requester-common" "4.13.1"
 
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
@@ -1068,112 +1068,112 @@
   dependencies:
     "@types/node" "*"
 
-"@vue/compiler-core@3.2.33":
-  version "3.2.33"
-  resolved "https://registry.npmjs.org/@vue/compiler-core/-/compiler-core-3.2.33.tgz"
+"@vue/compiler-core@3.2.36":
+  version "3.2.36"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.2.36.tgz#2fa44595308c95610602df54dcb69063ba2c8383"
   dependencies:
     "@babel/parser" "^7.16.4"
-    "@vue/shared" "3.2.33"
+    "@vue/shared" "3.2.36"
     estree-walker "^2.0.2"
     source-map "^0.6.1"
 
-"@vue/compiler-dom@3.2.33":
-  version "3.2.33"
-  resolved "https://registry.npmjs.org/@vue/compiler-dom/-/compiler-dom-3.2.33.tgz"
+"@vue/compiler-dom@3.2.36":
+  version "3.2.36"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.2.36.tgz#16d911ff163ed5fc8087a01645bf14bb7f325401"
   dependencies:
-    "@vue/compiler-core" "3.2.33"
-    "@vue/shared" "3.2.33"
+    "@vue/compiler-core" "3.2.36"
+    "@vue/shared" "3.2.36"
 
-"@vue/compiler-sfc@3.2.33":
-  version "3.2.33"
-  resolved "https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.2.33.tgz"
+"@vue/compiler-sfc@3.2.36":
+  version "3.2.36"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.2.36.tgz#e5065e7c0e5170ffa750e3c3dd93a29db109d0f2"
   dependencies:
     "@babel/parser" "^7.16.4"
-    "@vue/compiler-core" "3.2.33"
-    "@vue/compiler-dom" "3.2.33"
-    "@vue/compiler-ssr" "3.2.33"
-    "@vue/reactivity-transform" "3.2.33"
-    "@vue/shared" "3.2.33"
+    "@vue/compiler-core" "3.2.36"
+    "@vue/compiler-dom" "3.2.36"
+    "@vue/compiler-ssr" "3.2.36"
+    "@vue/reactivity-transform" "3.2.36"
+    "@vue/shared" "3.2.36"
     estree-walker "^2.0.2"
     magic-string "^0.25.7"
     postcss "^8.1.10"
     source-map "^0.6.1"
 
-"@vue/compiler-ssr@3.2.33":
-  version "3.2.33"
-  resolved "https://registry.npmjs.org/@vue/compiler-ssr/-/compiler-ssr-3.2.33.tgz"
+"@vue/compiler-ssr@3.2.36":
+  version "3.2.36"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-ssr/-/compiler-ssr-3.2.36.tgz#314f3a9424db58142c3608f48cbda7aa05fc66cb"
   dependencies:
-    "@vue/compiler-dom" "3.2.33"
-    "@vue/shared" "3.2.33"
+    "@vue/compiler-dom" "3.2.36"
+    "@vue/shared" "3.2.36"
 
-"@vue/reactivity-transform@3.2.33":
-  version "3.2.33"
-  resolved "https://registry.npmjs.org/@vue/reactivity-transform/-/reactivity-transform-3.2.33.tgz"
+"@vue/reactivity-transform@3.2.36":
+  version "3.2.36"
+  resolved "https://registry.yarnpkg.com/@vue/reactivity-transform/-/reactivity-transform-3.2.36.tgz#8426a941b0b09d1b94fc162d4642758183b5d133"
   dependencies:
     "@babel/parser" "^7.16.4"
-    "@vue/compiler-core" "3.2.33"
-    "@vue/shared" "3.2.33"
+    "@vue/compiler-core" "3.2.36"
+    "@vue/shared" "3.2.36"
     estree-walker "^2.0.2"
     magic-string "^0.25.7"
 
-"@vue/reactivity@3.2.33":
-  version "3.2.33"
-  resolved "https://registry.npmjs.org/@vue/reactivity/-/reactivity-3.2.33.tgz"
+"@vue/reactivity@3.2.36":
+  version "3.2.36"
+  resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.2.36.tgz#026b14e716febffe80cd284fd8a2b33378968646"
   dependencies:
-    "@vue/shared" "3.2.33"
+    "@vue/shared" "3.2.36"
 
-"@vue/runtime-core@3.2.33":
-  version "3.2.33"
-  resolved "https://registry.npmjs.org/@vue/runtime-core/-/runtime-core-3.2.33.tgz"
+"@vue/runtime-core@3.2.36":
+  version "3.2.36"
+  resolved "https://registry.yarnpkg.com/@vue/runtime-core/-/runtime-core-3.2.36.tgz#be5115e665679c26bf3807d2326675dc1d847134"
   dependencies:
-    "@vue/reactivity" "3.2.33"
-    "@vue/shared" "3.2.33"
+    "@vue/reactivity" "3.2.36"
+    "@vue/shared" "3.2.36"
 
-"@vue/runtime-dom@3.2.33":
-  version "3.2.33"
-  resolved "https://registry.npmjs.org/@vue/runtime-dom/-/runtime-dom-3.2.33.tgz"
+"@vue/runtime-dom@3.2.36":
+  version "3.2.36"
+  resolved "https://registry.yarnpkg.com/@vue/runtime-dom/-/runtime-dom-3.2.36.tgz#cd5d403ea23c18ee7c17767103a1b2f8263c54bb"
   dependencies:
-    "@vue/runtime-core" "3.2.33"
-    "@vue/shared" "3.2.33"
+    "@vue/runtime-core" "3.2.36"
+    "@vue/shared" "3.2.36"
     csstype "^2.6.8"
 
-"@vue/server-renderer@3.2.33":
-  version "3.2.33"
-  resolved "https://registry.npmjs.org/@vue/server-renderer/-/server-renderer-3.2.33.tgz"
+"@vue/server-renderer@3.2.36":
+  version "3.2.36"
+  resolved "https://registry.yarnpkg.com/@vue/server-renderer/-/server-renderer-3.2.36.tgz#1e7c1cf63bd17df7828d04e8c780ee6ca7a9ed7c"
   dependencies:
-    "@vue/compiler-ssr" "3.2.33"
-    "@vue/shared" "3.2.33"
+    "@vue/compiler-ssr" "3.2.36"
+    "@vue/shared" "3.2.36"
 
-"@vue/shared@3.2.33":
-  version "3.2.33"
-  resolved "https://registry.npmjs.org/@vue/shared/-/shared-3.2.33.tgz"
+"@vue/shared@3.2.36":
+  version "3.2.36"
+  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.36.tgz#35e11200542cf29068ba787dad57da9bdb82f644"
 
-"@vueuse/core@^8.4.2":
-  version "8.5.0"
-  resolved "https://registry.npmjs.org/@vueuse/core/-/core-8.5.0.tgz"
+"@vueuse/core@^8.5.0":
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-8.6.0.tgz#a8f80363cc63d17382423f16beae57696f376e67"
   dependencies:
-    "@vueuse/metadata" "8.5.0"
-    "@vueuse/shared" "8.5.0"
+    "@vueuse/metadata" "8.6.0"
+    "@vueuse/shared" "8.6.0"
     vue-demi "*"
 
-"@vueuse/metadata@8.5.0":
-  version "8.5.0"
-  resolved "https://registry.npmjs.org/@vueuse/metadata/-/metadata-8.5.0.tgz"
+"@vueuse/metadata@8.6.0":
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-8.6.0.tgz#34771443a72ee891ae001a70aa05dd9a1d799372"
 
-"@vueuse/shared@8.5.0":
-  version "8.5.0"
-  resolved "https://registry.npmjs.org/@vueuse/shared/-/shared-8.5.0.tgz"
+"@vueuse/shared@8.6.0":
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-8.6.0.tgz#63dad9fc4b73a7fccbe5d6b97adeacf73d4fec41"
   dependencies:
     vue-demi "*"
 
-"@waline/client@^2.4.2":
-  version "2.5.0"
-  resolved "https://registry.npmjs.org/@waline/client/-/client-2.5.0.tgz"
+"@waline/client@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@waline/client/-/client-2.5.1.tgz#2e326ff2994b9d65b7296d99b6ce4c8c0505a76e"
   dependencies:
-    "@vueuse/core" "^8.4.2"
+    "@vueuse/core" "^8.5.0"
     autosize "^5.0.1"
-    marked "^4.0.15"
-    vue "^3.2.33"
+    marked "^4.0.16"
+    vue "^3.2.35"
 
 JSONStream@^1.0.7:
   version "1.3.5"
@@ -1241,24 +1241,24 @@ algoliasearch-helper@^3.8.2:
   dependencies:
     "@algolia/events" "^4.0.1"
 
-algoliasearch@^4.13.0:
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/algoliasearch/-/algoliasearch-4.13.0.tgz"
+algoliasearch@^4.13.1:
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-4.13.1.tgz#54195c41c9e4bd13ed64982248cf49d4576974fe"
   dependencies:
-    "@algolia/cache-browser-local-storage" "4.13.0"
-    "@algolia/cache-common" "4.13.0"
-    "@algolia/cache-in-memory" "4.13.0"
-    "@algolia/client-account" "4.13.0"
-    "@algolia/client-analytics" "4.13.0"
-    "@algolia/client-common" "4.13.0"
-    "@algolia/client-personalization" "4.13.0"
-    "@algolia/client-search" "4.13.0"
-    "@algolia/logger-common" "4.13.0"
-    "@algolia/logger-console" "4.13.0"
-    "@algolia/requester-browser-xhr" "4.13.0"
-    "@algolia/requester-common" "4.13.0"
-    "@algolia/requester-node-http" "4.13.0"
-    "@algolia/transporter" "4.13.0"
+    "@algolia/cache-browser-local-storage" "4.13.1"
+    "@algolia/cache-common" "4.13.1"
+    "@algolia/cache-in-memory" "4.13.1"
+    "@algolia/client-account" "4.13.1"
+    "@algolia/client-analytics" "4.13.1"
+    "@algolia/client-common" "4.13.1"
+    "@algolia/client-personalization" "4.13.1"
+    "@algolia/client-search" "4.13.1"
+    "@algolia/logger-common" "4.13.1"
+    "@algolia/logger-console" "4.13.1"
+    "@algolia/requester-browser-xhr" "4.13.1"
+    "@algolia/requester-common" "4.13.1"
+    "@algolia/requester-node-http" "4.13.1"
+    "@algolia/transporter" "4.13.1"
 
 ansi-colors@^1.0.1:
   version "1.1.0"
@@ -1494,9 +1494,9 @@ builtin-modules@^3.1.0:
   version "3.3.0"
   resolved "https://registry.npmjs.org/builtin-modules/-/builtin-modules-3.3.0.tgz"
 
-butterfly-extsrc@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/butterfly-extsrc/-/butterfly-extsrc-1.1.1.tgz"
+butterfly-extsrc@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/butterfly-extsrc/-/butterfly-extsrc-1.1.2.tgz#30b2161ea68521bcfb54a90e7fc307f71d480ffc"
   dependencies:
     gulp-inject-string "^1.1.2"
 
@@ -2288,9 +2288,11 @@ destroy@1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz"
 
-disqusjs@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/disqusjs/-/disqusjs-1.3.0.tgz"
+disqusjs@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/disqusjs/-/disqusjs-3.0.1.tgz#79fc9ccc4afc5ce988eeb65b0f54562801f6e798"
+  dependencies:
+    zustand "^4.0.0-rc.1"
 
 doctypes@^1.1.0:
   version "1.1.0"
@@ -2766,26 +2768,25 @@ he@0.5.0:
   version "0.5.0"
   resolved "https://registry.npmjs.org/he/-/he-0.5.0.tgz"
 
-hexo-butterfly-extjs@^1.1.8:
-  version "1.1.8"
-  resolved "https://registry.npmjs.org/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.1.8.tgz"
+hexo-butterfly-extjs@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.2.1.tgz#007d97e4a867b3699559c513fa4fcffa343d088a"
   dependencies:
     "@fancyapps/ui" "^4.0.27"
     "@fortawesome/fontawesome-free" "^6.1.1"
-    "@waline/client" "^2.4.2"
-    algoliasearch "^4.13.0"
+    "@waline/client" "^2.5.1"
+    algoliasearch "^4.13.1"
     aplayer "^1.10.1"
     blueimp-md5 "^2.19.0"
-    butterfly-extsrc "^1.1.1"
-    disqusjs "^1.3.0"
+    butterfly-extsrc "^1.1.2"
+    disqusjs "^3.0.0"
     flickr-justified-gallery "^2.0.0"
     gitalk "^1.7.2"
-    install "^0.13.0"
     instant.page "^5.1.0"
-    instantsearch.js "^4.40.5"
+    instantsearch.js "^4.40.6"
     js-yaml "^4.1.0"
-    katex "^0.15.3"
-    mathjax "^3.2.0"
+    katex "^0.15.6"
+    mathjax "^3.2.1"
     medium-zoom "^1.0.6"
     mermaid "^9.1.1"
     node-snackbar "^0.1.16"
@@ -2793,10 +2794,10 @@ hexo-butterfly-extjs@^1.1.8:
     pjax "^0.2.8"
     prismjs "^1.28.0"
     social-share.js "^1.0.16"
-    twikoo "^1.5.10"
+    twikoo "^1.5.11"
     typed.js "^2.0.12"
     valine "^1.4.18"
-    vanilla-lazyload "^17.8.1"
+    vanilla-lazyload "^17.8.2"
 
 hexo-cli@^4.3.0:
   version "4.3.0"
@@ -3081,17 +3082,13 @@ insane@^2.6.2:
     assignment "2.0.0"
     he "0.5.0"
 
-install@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.npmjs.org/install/-/install-0.13.0.tgz"
-
 instant.page@^5.1.0:
   version "5.1.0"
   resolved "https://registry.npmjs.org/instant.page/-/instant.page-5.1.0.tgz"
 
-instantsearch.js@^4.40.5:
-  version "4.40.5"
-  resolved "https://registry.npmjs.org/instantsearch.js/-/instantsearch.js-4.40.5.tgz"
+instantsearch.js@^4.40.6:
+  version "4.41.0"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.41.0.tgz#c879d7b892e3d9159a17a803e793e695aeb5431f"
   dependencies:
     "@algolia/events" "^4.0.1"
     "@types/google.maps" "^3.45.3"
@@ -3415,9 +3412,9 @@ justified-layout@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/justified-layout/-/justified-layout-4.1.0.tgz"
 
-katex@^0.15.3:
-  version "0.15.3"
-  resolved "https://registry.npmjs.org/katex/-/katex-0.15.3.tgz"
+katex@^0.15.6:
+  version "0.15.6"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.15.6.tgz#c4e2f6ced2ac4de1ef6f737fe7c67d3026baa0e5"
   dependencies:
     commander "^8.0.0"
 
@@ -3531,13 +3528,17 @@ map-stream@~0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/map-stream/-/map-stream-0.1.0.tgz"
 
-marked@^4.0.1, marked@^4.0.15, marked@^4.0.8:
+marked@^4.0.1, marked@^4.0.8:
   version "4.0.15"
   resolved "https://registry.npmjs.org/marked/-/marked-4.0.15.tgz"
 
-mathjax@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/mathjax/-/mathjax-3.2.0.tgz"
+marked@^4.0.16:
+  version "4.0.16"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.16.tgz#9ec18fc1a723032eb28666100344d9428cf7a264"
+
+mathjax@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/mathjax/-/mathjax-3.2.1.tgz#b74b0cec928322dff6a3c74a757c534e69916d25"
 
 md5@^2.0.0:
   version "2.3.0"
@@ -4615,9 +4616,9 @@ tslib@^2.0.3:
   version "2.4.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
 
-twikoo@^1.5.10:
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/twikoo/-/twikoo-1.5.10.tgz"
+twikoo@^1.5.11:
+  version "1.5.11"
+  resolved "https://registry.yarnpkg.com/twikoo/-/twikoo-1.5.11.tgz#ae0d1831de66767bb6e7f4a33e55adcd3f006eeb"
 
 type-check@~0.3.2:
   version "0.3.2"
@@ -4693,6 +4694,10 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
+use-sync-external-store@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.1.0.tgz#3343c3fe7f7e404db70f8c687adf5c1652d34e82"
+
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
@@ -4721,9 +4726,9 @@ valine@^1.4.18:
     storejs "^1.0.25"
     xss "^1.0.6"
 
-vanilla-lazyload@^17.8.1:
-  version "17.8.1"
-  resolved "https://registry.npmjs.org/vanilla-lazyload/-/vanilla-lazyload-17.8.1.tgz"
+vanilla-lazyload@^17.8.2:
+  version "17.8.2"
+  resolved "https://registry.yarnpkg.com/vanilla-lazyload/-/vanilla-lazyload-17.8.2.tgz#06083660122d01bc38cc94ad5486579bd0290e27"
 
 vary@~1.1.2:
   version "1.1.2"
@@ -4737,15 +4742,15 @@ vue-demi@*:
   version "0.12.5"
   resolved "https://registry.npmjs.org/vue-demi/-/vue-demi-0.12.5.tgz"
 
-vue@^3.2.33:
-  version "3.2.33"
-  resolved "https://registry.npmjs.org/vue/-/vue-3.2.33.tgz"
+vue@^3.2.35:
+  version "3.2.36"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.36.tgz#8daa996e2ced521708de97d066c7c998e8bc3378"
   dependencies:
-    "@vue/compiler-dom" "3.2.33"
-    "@vue/compiler-sfc" "3.2.33"
-    "@vue/runtime-dom" "3.2.33"
-    "@vue/server-renderer" "3.2.33"
-    "@vue/shared" "3.2.33"
+    "@vue/compiler-dom" "3.2.36"
+    "@vue/compiler-sfc" "3.2.36"
+    "@vue/runtime-dom" "3.2.36"
+    "@vue/server-renderer" "3.2.36"
+    "@vue/shared" "3.2.36"
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"
@@ -5047,3 +5052,9 @@ yargs@^3.10.0:
     string-width "^1.0.1"
     window-size "^0.1.4"
     y18n "^3.2.0"
+
+zustand@^4.0.0-rc.1:
+  version "4.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.0.0-rc.1.tgz#ec30a3afc03728adec7e1bd7bcc3592176372201"
+  dependencies:
+    use-sync-external-store "1.1.0"
