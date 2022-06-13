@@ -1494,9 +1494,9 @@ builtin-modules@^3.1.0:
   version "3.3.0"
   resolved "https://registry.npmjs.org/builtin-modules/-/builtin-modules-3.3.0.tgz"
 
-butterfly-extsrc@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/butterfly-extsrc/-/butterfly-extsrc-1.1.2.tgz#30b2161ea68521bcfb54a90e7fc307f71d480ffc"
+butterfly-extsrc@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/butterfly-extsrc/-/butterfly-extsrc-1.1.3.tgz#05047f405e44be95e661f7acd8ca3e9d59db8d13"
   dependencies:
     gulp-inject-string "^1.1.2"
 
@@ -2288,7 +2288,7 @@ destroy@1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz"
 
-disqusjs@^3.0.0:
+disqusjs@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/disqusjs/-/disqusjs-3.0.1.tgz#79fc9ccc4afc5ce988eeb65b0f54562801f6e798"
   dependencies:
@@ -2768,9 +2768,9 @@ he@0.5.0:
   version "0.5.0"
   resolved "https://registry.npmjs.org/he/-/he-0.5.0.tgz"
 
-hexo-butterfly-extjs@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.2.1.tgz#007d97e4a867b3699559c513fa4fcffa343d088a"
+hexo-butterfly-extjs@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.2.2.tgz#023c880df45a15053a10c27d2397da0ff3db27c5"
   dependencies:
     "@fancyapps/ui" "^4.0.27"
     "@fortawesome/fontawesome-free" "^6.1.1"
@@ -2778,15 +2778,15 @@ hexo-butterfly-extjs@^1.2.1:
     algoliasearch "^4.13.1"
     aplayer "^1.10.1"
     blueimp-md5 "^2.19.0"
-    butterfly-extsrc "^1.1.2"
-    disqusjs "^3.0.0"
+    butterfly-extsrc "^1.1.3"
+    disqusjs "^3.0.1"
     flickr-justified-gallery "^2.0.0"
     gitalk "^1.7.2"
     instant.page "^5.1.0"
-    instantsearch.js "^4.40.6"
+    instantsearch.js "^4.41.0"
     js-yaml "^4.1.0"
-    katex "^0.15.6"
-    mathjax "^3.2.1"
+    katex "^0.16.0"
+    mathjax "^3.2.2"
     medium-zoom "^1.0.6"
     mermaid "^9.1.1"
     node-snackbar "^0.1.16"
@@ -3086,7 +3086,7 @@ instant.page@^5.1.0:
   version "5.1.0"
   resolved "https://registry.npmjs.org/instant.page/-/instant.page-5.1.0.tgz"
 
-instantsearch.js@^4.40.6:
+instantsearch.js@^4.41.0:
   version "4.41.0"
   resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.41.0.tgz#c879d7b892e3d9159a17a803e793e695aeb5431f"
   dependencies:
@@ -3412,9 +3412,9 @@ justified-layout@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/justified-layout/-/justified-layout-4.1.0.tgz"
 
-katex@^0.15.6:
-  version "0.15.6"
-  resolved "https://registry.yarnpkg.com/katex/-/katex-0.15.6.tgz#c4e2f6ced2ac4de1ef6f737fe7c67d3026baa0e5"
+katex@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.16.0.tgz#4faff4c905aad0c6010e85901c4d9140efb80a5e"
   dependencies:
     commander "^8.0.0"
 
@@ -3536,9 +3536,9 @@ marked@^4.0.16:
   version "4.0.16"
   resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.16.tgz#9ec18fc1a723032eb28666100344d9428cf7a264"
 
-mathjax@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/mathjax/-/mathjax-3.2.1.tgz#b74b0cec928322dff6a3c74a757c534e69916d25"
+mathjax@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/mathjax/-/mathjax-3.2.2.tgz#c754d7b46a679d7f3fa03543d6b8bf124ddf9f6b"
 
 md5@^2.0.0:
   version "2.3.0"
