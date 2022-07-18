@@ -1199,6 +1199,10 @@ abbrev@1, abbrev@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz"
 
+abortcontroller-polyfill@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/abortcontroller-polyfill/-/abortcontroller-polyfill-1.7.3.tgz#1b5b487bd6436b5b764fd52a612509702c3144b5"
+
 accepts@~1.3.5:
   version "1.3.8"
   resolved "https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz"
@@ -1240,9 +1244,9 @@ ajv@^8.6.0:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-algoliasearch-helper@^3.9.0:
-  version "3.9.0"
-  resolved "https://registry.npmjs.org/algoliasearch-helper/-/algoliasearch-helper-3.9.0.tgz"
+algoliasearch-helper@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.10.0.tgz#59a0f645dd3c7e55cf01faa568d1af50c49d36f6"
   dependencies:
     "@algolia/events" "^4.0.1"
 
@@ -1325,6 +1329,15 @@ arr-diff@^4.0.0:
 arr-union@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/arr-union/-/arr-union-3.1.0.tgz"
+
+artalk@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/artalk/-/artalk-2.3.4.tgz#439d8a2568e6429c5a78e43792dc3b8b94bf4340"
+  dependencies:
+    abortcontroller-polyfill "^1.7.3"
+    hanabi "^0.4.0"
+    insane "^2.6.2"
+    marked "^4.0.17"
 
 asap@^2.0.3, asap@~2.0.3:
   version "2.0.6"
@@ -2756,27 +2769,28 @@ he@0.5.0:
   version "0.5.0"
   resolved "https://registry.npmjs.org/he/-/he-0.5.0.tgz"
 
-hexo-butterfly-extjs@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.npmjs.org/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.2.5.tgz"
+hexo-butterfly-extjs@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.2.6.tgz#946d5c6c9d52a7fda5d9b4d8bd46a37082b524cc"
   dependencies:
     "@fancyapps/ui" "^4.0.27"
     "@fortawesome/fontawesome-free" "^6.1.1"
     "@waline/client" "^2.6.1"
     algoliasearch "^4.13.1"
     aplayer "^1.10.1"
+    artalk "^2.3.4"
     blueimp-md5 "^2.19.0"
     butterfly-extsrc "^1.1.3"
     disqusjs "^3.0.1"
     flickr-justified-gallery "^2.1.2"
     gitalk "^1.7.2"
-    instant.page "^5.1.0"
-    instantsearch.js "^4.41.2"
+    instant.page "^5.1.1"
+    instantsearch.js "^4.43.1"
     js-yaml "^4.1.0"
     katex "^0.16.0"
     mathjax "^3.2.2"
     medium-zoom "^1.0.6"
-    mermaid "^9.1.2"
+    mermaid "^9.1.3"
     node-snackbar "^0.1.16"
     pangu "^4.0.7"
     pjax "^0.2.8"
@@ -2784,7 +2798,7 @@ hexo-butterfly-extjs@^1.2.5:
     social-share.js "^1.0.16"
     twikoo "^1.5.11"
     typed.js "^2.0.12"
-    valine "^1.4.18"
+    valine "^1.5.0"
     vanilla-lazyload "^17.8.2"
 
 hexo-cli@^4.3.0:
@@ -3074,19 +3088,19 @@ insane@^2.6.2:
     assignment "2.0.0"
     he "0.5.0"
 
-instant.page@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/instant.page/-/instant.page-5.1.0.tgz"
+instant.page@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/instant.page/-/instant.page-5.1.1.tgz#4d8e25a8a6f119f1b76db4e759ffb94976ff71a0"
 
-instantsearch.js@^4.41.2:
-  version "4.42.0"
-  resolved "https://registry.npmjs.org/instantsearch.js/-/instantsearch.js-4.42.0.tgz"
+instantsearch.js@^4.43.1:
+  version "4.43.1"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.43.1.tgz#9f316c13f63a1e53bf999f5d3716dc73bc7e9f4d"
   dependencies:
     "@algolia/events" "^4.0.1"
     "@types/google.maps" "^3.45.3"
     "@types/hogan.js" "^3.0.0"
     "@types/qs" "^6.5.3"
-    algoliasearch-helper "^3.9.0"
+    algoliasearch-helper "^3.10.0"
     classnames "^2.2.5"
     hogan.js "^3.0.2"
     preact "^10.6.0"
@@ -3540,9 +3554,9 @@ merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
 
-mermaid@^9.1.2:
-  version "9.1.2"
-  resolved "https://registry.npmjs.org/mermaid/-/mermaid-9.1.2.tgz"
+mermaid@^9.1.3:
+  version "9.1.3"
+  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-9.1.3.tgz#15d08662c66250124ce31106a4620285061ac59c"
   dependencies:
     "@braintree/sanitize-url" "^6.0.0"
     d3 "^7.0.0"
@@ -4692,9 +4706,9 @@ uuid@^3.0.0, uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz"
 
-valine@^1.4.18:
+valine@^1.5.0:
   version "1.5.0"
-  resolved "https://registry.npmjs.org/valine/-/valine-1.5.0.tgz"
+  resolved "https://registry.yarnpkg.com/valine/-/valine-1.5.0.tgz#d51d0bf4aee428a1e9b83ac74e1f3db93b9d54bb"
   dependencies:
     autosize "^4.0.2"
     balajs "^1.0.7"
