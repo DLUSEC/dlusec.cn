@@ -96,16 +96,16 @@
     "@algolia/logger-common" "4.14.2"
     "@algolia/requester-common" "4.14.2"
 
-"@algolia/ui-components-highlight-vdom@^1.1.2":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@algolia/ui-components-highlight-vdom/-/ui-components-highlight-vdom-1.1.3.tgz#ba3ec05d4657286e2e688e1446c591d0e4217166"
+"@algolia/ui-components-highlight-vdom@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@algolia/ui-components-highlight-vdom/-/ui-components-highlight-vdom-1.2.1.tgz#c430c9f090ef8c68477ef4b685324ed231ce0c13"
   dependencies:
-    "@algolia/ui-components-shared" "1.1.3"
+    "@algolia/ui-components-shared" "1.2.1"
     "@babel/runtime" "^7.0.0"
 
-"@algolia/ui-components-shared@1.1.3", "@algolia/ui-components-shared@^1.1.2":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@algolia/ui-components-shared/-/ui-components-shared-1.1.3.tgz#d62760b20584f628f57e8a144f5796bc42fd68f1"
+"@algolia/ui-components-shared@1.2.1", "@algolia/ui-components-shared@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@algolia/ui-components-shared/-/ui-components-shared-1.2.1.tgz#62e3a04fc11623f149312942cd764d4528dd994c"
 
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
@@ -1079,9 +1079,9 @@
   version "2.0.2"
   resolved "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.2.tgz"
 
-"@types/web-bluetooth@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.15.tgz#d60330046a6ed8a13b4a53df3813c44942ebdf72"
+"@types/web-bluetooth@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.16.tgz#1d12873a8e49567371f2a75fe3e7f7edca6662d8"
 
 "@types/ws@^7.2.2":
   version "7.4.7"
@@ -1089,113 +1089,113 @@
   dependencies:
     "@types/node" "*"
 
-"@vue/compiler-core@3.2.40":
-  version "3.2.40"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.2.40.tgz#c785501f09536748121e937fb87605bbb1ada8e5"
+"@vue/compiler-core@3.2.41":
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.2.41.tgz#fb5b25f23817400f44377d878a0cdead808453ef"
   dependencies:
     "@babel/parser" "^7.16.4"
-    "@vue/shared" "3.2.40"
+    "@vue/shared" "3.2.41"
     estree-walker "^2.0.2"
     source-map "^0.6.1"
 
-"@vue/compiler-dom@3.2.40":
-  version "3.2.40"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.2.40.tgz#c225418773774db536174d30d3f25ba42a33e7e4"
+"@vue/compiler-dom@3.2.41":
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.2.41.tgz#dc63dcd3ce8ca8a8721f14009d498a7a54380299"
   dependencies:
-    "@vue/compiler-core" "3.2.40"
-    "@vue/shared" "3.2.40"
+    "@vue/compiler-core" "3.2.41"
+    "@vue/shared" "3.2.41"
 
-"@vue/compiler-sfc@3.2.40":
-  version "3.2.40"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.2.40.tgz#61823283efc84d25d9d2989458f305d32a2ed141"
+"@vue/compiler-sfc@3.2.41":
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.2.41.tgz#238fb8c48318408c856748f4116aff8cc1dc2a73"
   dependencies:
     "@babel/parser" "^7.16.4"
-    "@vue/compiler-core" "3.2.40"
-    "@vue/compiler-dom" "3.2.40"
-    "@vue/compiler-ssr" "3.2.40"
-    "@vue/reactivity-transform" "3.2.40"
-    "@vue/shared" "3.2.40"
+    "@vue/compiler-core" "3.2.41"
+    "@vue/compiler-dom" "3.2.41"
+    "@vue/compiler-ssr" "3.2.41"
+    "@vue/reactivity-transform" "3.2.41"
+    "@vue/shared" "3.2.41"
     estree-walker "^2.0.2"
     magic-string "^0.25.7"
     postcss "^8.1.10"
     source-map "^0.6.1"
 
-"@vue/compiler-ssr@3.2.40":
-  version "3.2.40"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-ssr/-/compiler-ssr-3.2.40.tgz#67df95a096c63e9ec4b50b84cc6f05816793629c"
+"@vue/compiler-ssr@3.2.41":
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-ssr/-/compiler-ssr-3.2.41.tgz#344f564d68584b33367731c04ffc949784611fcb"
   dependencies:
-    "@vue/compiler-dom" "3.2.40"
-    "@vue/shared" "3.2.40"
+    "@vue/compiler-dom" "3.2.41"
+    "@vue/shared" "3.2.41"
 
-"@vue/reactivity-transform@3.2.40":
-  version "3.2.40"
-  resolved "https://registry.yarnpkg.com/@vue/reactivity-transform/-/reactivity-transform-3.2.40.tgz#dc24b9074b26f0d9dd2034c6349f5bb2a51c86ac"
+"@vue/reactivity-transform@3.2.41":
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/@vue/reactivity-transform/-/reactivity-transform-3.2.41.tgz#9ff938877600c97f646e09ac1959b5150fb11a0c"
   dependencies:
     "@babel/parser" "^7.16.4"
-    "@vue/compiler-core" "3.2.40"
-    "@vue/shared" "3.2.40"
+    "@vue/compiler-core" "3.2.41"
+    "@vue/shared" "3.2.41"
     estree-walker "^2.0.2"
     magic-string "^0.25.7"
 
-"@vue/reactivity@3.2.40":
-  version "3.2.40"
-  resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.2.40.tgz#ae65496f5b364e4e481c426f391568ed7d133cca"
+"@vue/reactivity@3.2.41":
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.2.41.tgz#0ad3bdf76d76822da1502dc9f394dafd02642963"
   dependencies:
-    "@vue/shared" "3.2.40"
+    "@vue/shared" "3.2.41"
 
-"@vue/runtime-core@3.2.40":
-  version "3.2.40"
-  resolved "https://registry.yarnpkg.com/@vue/runtime-core/-/runtime-core-3.2.40.tgz#e814358bf1b0ff6d4a6b4f8f62d9f341964fb275"
+"@vue/runtime-core@3.2.41":
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/@vue/runtime-core/-/runtime-core-3.2.41.tgz#775bfc00b3fadbaddab77138f23322aee3517a76"
   dependencies:
-    "@vue/reactivity" "3.2.40"
-    "@vue/shared" "3.2.40"
+    "@vue/reactivity" "3.2.41"
+    "@vue/shared" "3.2.41"
 
-"@vue/runtime-dom@3.2.40":
-  version "3.2.40"
-  resolved "https://registry.yarnpkg.com/@vue/runtime-dom/-/runtime-dom-3.2.40.tgz#975119feac5ab703aa9bbbf37c9cc966602c8eab"
+"@vue/runtime-dom@3.2.41":
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/@vue/runtime-dom/-/runtime-dom-3.2.41.tgz#cdf86be7410f7b15c29632a96ce879e5b4c9ab92"
   dependencies:
-    "@vue/runtime-core" "3.2.40"
-    "@vue/shared" "3.2.40"
+    "@vue/runtime-core" "3.2.41"
+    "@vue/shared" "3.2.41"
     csstype "^2.6.8"
 
-"@vue/server-renderer@3.2.40":
-  version "3.2.40"
-  resolved "https://registry.yarnpkg.com/@vue/server-renderer/-/server-renderer-3.2.40.tgz#55eaac31f7105c3907e1895129bf4efb6b0ce393"
+"@vue/server-renderer@3.2.41":
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/@vue/server-renderer/-/server-renderer-3.2.41.tgz#ca64552c05878f94e8d191ac439141c06c0fb2ad"
   dependencies:
-    "@vue/compiler-ssr" "3.2.40"
-    "@vue/shared" "3.2.40"
+    "@vue/compiler-ssr" "3.2.41"
+    "@vue/shared" "3.2.41"
 
-"@vue/shared@3.2.40":
-  version "3.2.40"
-  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.40.tgz#e57799da2a930b975321981fcee3d1e90ed257ae"
+"@vue/shared@3.2.41":
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.41.tgz#fbc95422df654ea64e8428eced96ba6ad555d2bb"
 
-"@vueuse/core@^9.2.0":
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-9.3.0.tgz#74d855bd19cb5eadd2edb30c871918fac881e8b8"
+"@vueuse/core@^9.3.0":
+  version "9.3.1"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-9.3.1.tgz#47bc65da9c705fef7b3beca4af764491f0479647"
   dependencies:
-    "@types/web-bluetooth" "^0.0.15"
-    "@vueuse/metadata" "9.3.0"
-    "@vueuse/shared" "9.3.0"
+    "@types/web-bluetooth" "^0.0.16"
+    "@vueuse/metadata" "9.3.1"
+    "@vueuse/shared" "9.3.1"
     vue-demi "*"
 
-"@vueuse/metadata@9.3.0":
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-9.3.0.tgz#c107fe77a577e1f221536cd1b291039c0c7c4bce"
+"@vueuse/metadata@9.3.1":
+  version "9.3.1"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-9.3.1.tgz#4e04d76df1e16f1aede28590c8b7a113ea3d3a7e"
 
-"@vueuse/shared@9.3.0":
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-9.3.0.tgz#40fc138ba4e379c894075830aa2e15404aaa8a5b"
+"@vueuse/shared@9.3.1":
+  version "9.3.1"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-9.3.1.tgz#78c6cf41d8b75f05460e18a80819bf8164b597a5"
   dependencies:
     vue-demi "*"
 
-"@waline/client@^2.11.3":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@waline/client/-/client-2.11.3.tgz#90feaac6dd631fb22bd8501caf20f3caaf583974"
+"@waline/client@^2.13.0":
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/@waline/client/-/client-2.13.0.tgz#fcf94696aab4acf5564581a55f8d52c248218baa"
   dependencies:
-    "@vueuse/core" "^9.2.0"
+    "@vueuse/core" "^9.3.0"
     autosize "^5.0.1"
-    marked "^4.1.0"
-    vue "^3.2.39"
+    marked "^4.1.1"
+    vue "^3.2.40"
 
 a-sync-waterfall@^1.0.0:
   version "1.0.1"
@@ -1598,10 +1598,6 @@ charenc@0.0.2:
     readdirp "~3.6.0"
   optionalDependencies:
     fsevents "~2.3.2"
-
-classnames@^2.2.5:
-  version "2.3.1"
-  resolved "https://registry.npmjs.org/classnames/-/classnames-2.3.1.tgz"
 
 cliui@^3.0.3:
   version "3.2.0"
@@ -2783,13 +2779,13 @@ he@0.5.0:
   version "0.5.0"
   resolved "https://registry.npmjs.org/he/-/he-0.5.0.tgz"
 
-hexo-butterfly-extjs@^1.2.8:
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.2.8.tgz#b803a596fa32eb2b65c94ba9441db07c7ae94055"
+hexo-butterfly-extjs@^1.2.9:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.2.9.tgz#89fbf2294b5728bcc45d58d4cddf8375988d8c75"
   dependencies:
     "@fancyapps/ui" "^4.0.31"
     "@fortawesome/fontawesome-free" "^6.2.0"
-    "@waline/client" "^2.11.3"
+    "@waline/client" "^2.13.0"
     algoliasearch "^4.14.2"
     aplayer "^1.10.1"
     artalk "^2.4.2"
@@ -2799,7 +2795,7 @@ hexo-butterfly-extjs@^1.2.8:
     flickr-justified-gallery "^2.1.2"
     gitalk "^1.8.0"
     instant.page "^5.1.1"
-    instantsearch.js "^4.46.3"
+    instantsearch.js "^4.48.1"
     js-yaml "^4.1.0"
     katex "^0.16.2"
     mathjax "^3.2.2"
@@ -3111,18 +3107,17 @@ instant.page@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/instant.page/-/instant.page-5.1.1.tgz#4d8e25a8a6f119f1b76db4e759ffb94976ff71a0"
 
-instantsearch.js@^4.46.3:
-  version "4.47.0"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.47.0.tgz#eb06d4deede956dff9391e577469061e0d7e9c56"
+instantsearch.js@^4.48.1:
+  version "4.48.1"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.48.1.tgz#2db3424e430c5cfc5bdc2beb979b7a2c4fd402b5"
   dependencies:
     "@algolia/events" "^4.0.1"
-    "@algolia/ui-components-highlight-vdom" "^1.1.2"
-    "@algolia/ui-components-shared" "^1.1.2"
+    "@algolia/ui-components-highlight-vdom" "^1.2.1"
+    "@algolia/ui-components-shared" "^1.2.1"
     "@types/google.maps" "^3.45.3"
     "@types/hogan.js" "^3.0.0"
     "@types/qs" "^6.5.3"
     algoliasearch-helper "^3.11.1"
-    classnames "^2.2.5"
     hogan.js "^3.0.2"
     htm "^3.0.0"
     preact "^10.10.0"
@@ -3556,7 +3551,7 @@ marked@^4.0.1, marked@^4.0.8:
   version "4.0.17"
   resolved "https://registry.npmjs.org/marked/-/marked-4.0.17.tgz"
 
-marked@^4.0.19, marked@^4.1.0:
+marked@^4.0.19, marked@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/marked/-/marked-4.1.1.tgz#2f709a4462abf65a283f2453dc1c42ab177d302e"
 
@@ -4771,15 +4766,15 @@ vue-demi@*:
   version "0.13.1"
   resolved "https://registry.npmjs.org/vue-demi/-/vue-demi-0.13.1.tgz"
 
-vue@^3.2.39:
-  version "3.2.40"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.40.tgz#23f387f6f9b3a0767938db6751e4fb5900f0ee34"
+vue@^3.2.40:
+  version "3.2.41"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.41.tgz#ed452b8a0f7f2b962f055c8955139c28b1c06806"
   dependencies:
-    "@vue/compiler-dom" "3.2.40"
-    "@vue/compiler-sfc" "3.2.40"
-    "@vue/runtime-dom" "3.2.40"
-    "@vue/server-renderer" "3.2.40"
-    "@vue/shared" "3.2.40"
+    "@vue/compiler-dom" "3.2.41"
+    "@vue/compiler-sfc" "3.2.41"
+    "@vue/runtime-dom" "3.2.41"
+    "@vue/server-renderer" "3.2.41"
+    "@vue/shared" "3.2.41"
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"
