@@ -2,6 +2,22 @@
 # yarn lockfile v1
 
 
+"@algolia/autocomplete-core@1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-core/-/autocomplete-core-1.7.4.tgz#85ff36b2673654a393c8c505345eaedd6eaa4f70"
+  dependencies:
+    "@algolia/autocomplete-shared" "1.7.4"
+
+"@algolia/autocomplete-preset-algolia@1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.7.4.tgz#610ee1d887962f230b987cba2fd6556478000bc3"
+  dependencies:
+    "@algolia/autocomplete-shared" "1.7.4"
+
+"@algolia/autocomplete-shared@1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-shared/-/autocomplete-shared-1.7.4.tgz#78aea1140a50c4d193e1f06a13b7f12c5e2cbeea"
+
 "@algolia/cache-browser-local-storage@4.14.3":
   version "4.14.3"
   resolved "https://registry.yarnpkg.com/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.14.3.tgz#b9e0da012b2f124f785134a4d468ee0841b2399d"
@@ -911,13 +927,33 @@
   version "6.0.0"
   resolved "https://registry.npmjs.org/@braintree/sanitize-url/-/sanitize-url-6.0.0.tgz"
 
+"@docsearch/css@3.3.3", "@docsearch/css@^3.3.3":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@docsearch/css/-/css-3.3.3.tgz#f9346c9e24602218341f51b8ba91eb9109add434"
+
+"@docsearch/js@^3.3.3":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@docsearch/js/-/js-3.3.3.tgz#70725a7a8fe92d221fcf0593263b936389d3728f"
+  dependencies:
+    "@docsearch/react" "3.3.3"
+    preact "^10.0.0"
+
+"@docsearch/react@3.3.3":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@docsearch/react/-/react-3.3.3.tgz#907b6936a565f880b4c0892624b4f7a9f132d298"
+  dependencies:
+    "@algolia/autocomplete-core" "1.7.4"
+    "@algolia/autocomplete-preset-algolia" "1.7.4"
+    "@docsearch/css" "3.3.3"
+    algoliasearch "^4.0.0"
+
 "@fancyapps/ui@^4.0.31":
   version "4.0.31"
   resolved "https://registry.yarnpkg.com/@fancyapps/ui/-/ui-4.0.31.tgz#cf187b0ffe41ec1f44fd2ba2c2237f5cf7914619"
 
-"@fortawesome/fontawesome-free@^6.2.1":
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.2.1.tgz#344baf6ff9eaad7a73cff067d8c56bfc11ae5304"
+"@fortawesome/fontawesome-free@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.3.0.tgz#b5877182692a6f7a39d1108837bec24247ba4bd7"
 
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
@@ -1268,7 +1304,7 @@ algoliasearch-helper@^3.11.3:
   dependencies:
     "@algolia/events" "^4.0.1"
 
-algoliasearch@^4.14.3:
+algoliasearch@^4.0.0, algoliasearch@^4.14.3:
   version "4.14.3"
   resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-4.14.3.tgz#f02a77a4db17de2f676018938847494b692035e7"
   dependencies:
@@ -1736,6 +1772,18 @@ core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz"
 
+cose-base@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/cose-base/-/cose-base-1.0.3.tgz#650334b41b869578a543358b80cda7e0abe0a60a"
+  dependencies:
+    layout-base "^1.0.0"
+
+cose-base@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/cose-base/-/cose-base-2.2.0.tgz#1c395c35b6e10bb83f9769ca8b817d614add5c01"
+  dependencies:
+    layout-base "^2.0.0"
+
 cross-spawn@^7.0.0:
   version "7.0.3"
   resolved "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
@@ -1785,6 +1833,25 @@ csstype@^2.6.8:
 cuid@^2.1.4:
   version "2.1.8"
   resolved "https://registry.npmjs.org/cuid/-/cuid-2.1.8.tgz"
+
+cytoscape-cose-bilkent@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/cytoscape-cose-bilkent/-/cytoscape-cose-bilkent-4.1.0.tgz#762fa121df9930ffeb51a495d87917c570ac209b"
+  dependencies:
+    cose-base "^1.0.0"
+
+cytoscape-fcose@^2.1.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/cytoscape-fcose/-/cytoscape-fcose-2.2.0.tgz#e4d6f6490df4fab58ae9cea9e5c3ab8d7472f471"
+  dependencies:
+    cose-base "^2.2.0"
+
+cytoscape@^3.23.0:
+  version "3.23.0"
+  resolved "https://registry.yarnpkg.com/cytoscape/-/cytoscape-3.23.0.tgz#054ee05a6d0aa3b4f139382bbf2f4e5226df3c6d"
+  dependencies:
+    heap "^0.2.6"
+    lodash "^4.17.21"
 
 "d3-array@2 - 3", "d3-array@2.10.0 - 3", "d3-array@2.5.0 - 3", d3-array@3:
   version "3.1.6"
@@ -2011,7 +2078,7 @@ d3@^7.0.0:
     d3-transition "3"
     d3-zoom "3"
 
-d3@^7.7.0:
+d3@^7.8.2:
   version "7.8.2"
   resolved "https://registry.yarnpkg.com/d3/-/d3-7.8.2.tgz#2bdb3c178d095ae03b107a18837ae049838e372d"
   dependencies:
@@ -2046,11 +2113,11 @@ d3@^7.7.0:
     d3-transition "3"
     d3-zoom "3"
 
-dagre-d3-es@7.0.6:
-  version "7.0.6"
-  resolved "https://registry.yarnpkg.com/dagre-d3-es/-/dagre-d3-es-7.0.6.tgz#8cab465ff95aca8a1ca2292d07e1fb31b5db83f2"
+dagre-d3-es@7.0.8:
+  version "7.0.8"
+  resolved "https://registry.yarnpkg.com/dagre-d3-es/-/dagre-d3-es-7.0.8.tgz#14c309c3c08ba8329a7cf51000bd56a369c513d1"
   dependencies:
-    d3 "^7.7.0"
+    d3 "^7.8.2"
     lodash-es "^4.17.21"
 
 data-urls@^3.0.2:
@@ -2172,9 +2239,9 @@ domhandler@^4.2.0, domhandler@^4.2.2:
   dependencies:
     domelementtype "^2.2.0"
 
-dompurify@2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.4.1.tgz#f9cb1a275fde9af6f2d0a2644ef648dd6847b631"
+dompurify@2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.4.3.tgz#f4133af0e6a50297fc8874e2eaedc13a3c308c03"
 
 dompurify@^2.4.0:
   version "2.4.0"
@@ -2209,6 +2276,10 @@ electron-to-chromium@^1.4.118:
 element-closest@^3.0.2:
   version "3.0.2"
   resolved "https://registry.npmjs.org/element-closest/-/element-closest-3.0.2.tgz"
+
+elkjs@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/elkjs/-/elkjs-0.8.2.tgz#c37763c5a3e24e042e318455e0147c912a7c248e"
 
 encodeurl@~1.0.2:
   version "1.0.2"
@@ -2603,12 +2674,18 @@ he@0.5.0:
   version "0.5.0"
   resolved "https://registry.npmjs.org/he/-/he-0.5.0.tgz"
 
-hexo-butterfly-extjs@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.3.1.tgz#a6edf0b6c3880132a8595ebdc5e2b17496f1d5af"
+heap@^0.2.6:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/heap/-/heap-0.2.7.tgz#1e6adf711d3f27ce35a81fe3b7bd576c2260a8fc"
+
+hexo-butterfly-extjs@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.3.2.tgz#a44c643f07aed0d1a427470892d0a0d0cdcf93e8"
   dependencies:
+    "@docsearch/css" "^3.3.3"
+    "@docsearch/js" "^3.3.3"
     "@fancyapps/ui" "^4.0.31"
-    "@fortawesome/fontawesome-free" "^6.2.1"
+    "@fortawesome/fontawesome-free" "^6.3.0"
     "@waline/client" "^2.14.7"
     algoliasearch "^4.14.3"
     aplayer "^1.10.1"
@@ -2619,19 +2696,18 @@ hexo-butterfly-extjs@^1.3.1:
     flickr-justified-gallery "^2.1.2"
     gitalk "^1.8.0"
     instant.page "^5.1.1"
-    instantsearch.js "^4.49.4"
-    js-yaml "^4.1.0"
+    instantsearch.js "^4.51.0"
     katex "^0.16.4"
     mathjax "^3.2.2"
     medium-zoom "^1.0.8"
-    mermaid "^9.3.0"
+    mermaid "^9.4.0"
     node-snackbar "^0.1.16"
     pace-js "^1.2.4"
     pangu "^4.0.7"
     pjax "^0.2.8"
     prismjs "^1.29.0"
     social-share.js "^1.0.16"
-    twikoo "^1.6.8"
+    twikoo "^1.6.10"
     typed.js "^2.0.12"
     valine "^1.5.1"
     vanilla-lazyload "^17.8.3"
@@ -2933,9 +3009,9 @@ instant.page@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/instant.page/-/instant.page-5.1.1.tgz#4d8e25a8a6f119f1b76db4e759ffb94976ff71a0"
 
-instantsearch.js@^4.49.4:
-  version "4.50.1"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.50.1.tgz#3494865c727b27f8587b287a7e41669dc2c2c7d4"
+instantsearch.js@^4.51.0:
+  version "4.51.0"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.51.0.tgz#21c28ffeb9b5ca538a4df9ab2c521da0a96aa0ab"
   dependencies:
     "@algolia/events" "^4.0.1"
     "@algolia/ui-components-highlight-vdom" "^1.2.1"
@@ -3271,6 +3347,14 @@ khroma@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/khroma/-/khroma-2.0.0.tgz"
 
+layout-base@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/layout-base/-/layout-base-1.0.2.tgz#1291e296883c322a9dd4c5dd82063721b53e26e2"
+
+layout-base@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/layout-base/-/layout-base-2.0.1.tgz#d0337913586c90f9c2c075292069f5c2da5dd285"
+
 lcid@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/lcid/-/lcid-1.0.0.tgz"
@@ -3341,7 +3425,7 @@ lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.npmjs.org/lodash.sortby/-/lodash.sortby-4.7.0.tgz"
 
-lodash@^4.17.10, lodash@^4.17.20:
+lodash@^4.17.10, lodash@^4.17.20, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
 
@@ -3409,19 +3493,24 @@ merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
 
-mermaid@^9.3.0:
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-9.3.0.tgz#8bd7c4a44b53e4e85c53a0a474442e9c273494ae"
+mermaid@^9.4.0:
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-9.4.0.tgz#ff9afcac9f565a358fa8fc39135dec2c842c3b8f"
   dependencies:
     "@braintree/sanitize-url" "^6.0.0"
+    cytoscape "^3.23.0"
+    cytoscape-cose-bilkent "^4.1.0"
+    cytoscape-fcose "^2.1.0"
     d3 "^7.0.0"
-    dagre-d3-es "7.0.6"
-    dompurify "2.4.1"
+    dagre-d3-es "7.0.8"
+    dompurify "2.4.3"
+    elkjs "^0.8.2"
     khroma "^2.0.0"
     lodash-es "^4.17.21"
-    moment-mini "^2.24.0"
+    moment "^2.29.4"
     non-layered-tidy-tree-layout "^2.0.2"
     stylis "^4.1.2"
+    ts-dedent "^2.2.0"
     uuid "^9.0.0"
 
 methods@^1.1.1, methods@^1.1.2:
@@ -3496,10 +3585,6 @@ moize@^6.1.0:
     fast-equals "^3.0.1"
     micro-memoize "^4.0.9"
 
-moment-mini@^2.24.0:
-  version "2.29.4"
-  resolved "https://registry.yarnpkg.com/moment-mini/-/moment-mini-2.29.4.tgz#cbbcdc58ce1b267506f28ea6668dbe060a32758f"
-
 moment-timezone@^0.5.34:
   version "0.5.34"
   resolved "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.34.tgz"
@@ -3509,6 +3594,10 @@ moment-timezone@^0.5.34:
 "moment@>= 2.9.0", moment@^2.29.1:
   version "2.29.3"
   resolved "https://registry.npmjs.org/moment/-/moment-2.29.3.tgz"
+
+moment@^2.29.4:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
 
 morgan@^1.9.1:
   version "1.10.0"
@@ -3765,6 +3854,10 @@ preact-transition-group@^1.1.0:
 preact@8.1.0:
   version "8.1.0"
   resolved "https://registry.npmjs.org/preact/-/preact-8.1.0.tgz"
+
+preact@^10.0.0:
+  version "10.12.1"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.12.1.tgz#8f9cb5442f560e532729b7d23d42fd1161354a21"
 
 preact@^10.10.0:
   version "10.11.0"
@@ -4481,13 +4574,17 @@ tr46@^3.0.0:
   dependencies:
     punycode "^2.1.1"
 
+ts-dedent@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/ts-dedent/-/ts-dedent-2.2.0.tgz#39e4bd297cd036292ae2394eb3412be63f563bb5"
+
 tslib@^2.0.3:
   version "2.4.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
 
-twikoo@^1.6.8:
-  version "1.6.8"
-  resolved "https://registry.yarnpkg.com/twikoo/-/twikoo-1.6.8.tgz#a7ad7dd52d9abf5478dd277c2ef1d5adc0e3a223"
+twikoo@^1.6.10:
+  version "1.6.10"
+  resolved "https://registry.yarnpkg.com/twikoo/-/twikoo-1.6.10.tgz#4256fa62abf61c0b83b8e855aceeed943126196e"
 
 type-check@~0.3.2:
   version "0.3.2"
