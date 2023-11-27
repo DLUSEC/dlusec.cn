@@ -123,16 +123,16 @@
     "@algolia/logger-common" "4.20.0"
     "@algolia/requester-common" "4.20.0"
 
-"@algolia/ui-components-highlight-vdom@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@algolia/ui-components-highlight-vdom/-/ui-components-highlight-vdom-1.2.1.tgz#c430c9f090ef8c68477ef4b685324ed231ce0c13"
+"@algolia/ui-components-highlight-vdom@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@algolia/ui-components-highlight-vdom/-/ui-components-highlight-vdom-1.2.2.tgz#913ac447e41afc79dcbd95ca37531bbfbdb81cfe"
   dependencies:
-    "@algolia/ui-components-shared" "1.2.1"
+    "@algolia/ui-components-shared" "1.2.2"
     "@babel/runtime" "^7.0.0"
 
-"@algolia/ui-components-shared@1.2.1", "@algolia/ui-components-shared@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@algolia/ui-components-shared/-/ui-components-shared-1.2.1.tgz#62e3a04fc11623f149312942cd764d4528dd994c"
+"@algolia/ui-components-shared@1.2.2", "@algolia/ui-components-shared@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@algolia/ui-components-shared/-/ui-components-shared-1.2.2.tgz#ec49246e2de7d0461cdeadf2e7742d2f2c7c0bd9"
 
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
@@ -984,9 +984,9 @@
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/@egjs/component/-/component-3.0.4.tgz#ad7b53794b2a612806179a188ad828acb9525f61"
 
-"@egjs/grid@^1.14.2":
-  version "1.14.2"
-  resolved "https://registry.yarnpkg.com/@egjs/grid/-/grid-1.14.2.tgz#b92c91298a808c7549219904ed2396361c4cc1b8"
+"@egjs/grid@^1.15.0":
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/@egjs/grid/-/grid-1.15.0.tgz#bfe18fb2937b2c25363a9c8ef36911ec0cfe99f0"
   dependencies:
     "@egjs/children-differ" "^1.0.1"
     "@egjs/component" "^3.0.0"
@@ -999,23 +999,23 @@
     "@cfcs/core" "^0.0.24"
     "@egjs/component" "^3.0.1"
 
-"@egjs/infinitegrid@^4.10.1":
-  version "4.10.1"
-  resolved "https://registry.yarnpkg.com/@egjs/infinitegrid/-/infinitegrid-4.10.1.tgz#02dda423f29775b972eda449755ef25cb6aa2854"
+"@egjs/infinitegrid@^4.11.0":
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/@egjs/infinitegrid/-/infinitegrid-4.11.0.tgz#287ac3828be4a22f4085ba6bb1e7af22c5de9587"
   dependencies:
     "@cfcs/core" "^0.0.5"
     "@egjs/children-differ" "^1.0.1"
     "@egjs/component" "^3.0.0"
-    "@egjs/grid" "^1.14.2"
+    "@egjs/grid" "^1.15.0"
     "@egjs/list-differ" "^1.0.0"
 
 "@egjs/list-differ@^1.0.0":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@egjs/list-differ/-/list-differ-1.0.1.tgz#5772b0f8b87973bb67827f6c7d7df8d7f64a22eb"
 
-"@fancyapps/ui@^5.0.24":
-  version "5.0.24"
-  resolved "https://registry.yarnpkg.com/@fancyapps/ui/-/ui-5.0.24.tgz#bf2e5791d4d284a01f8b31f579d946a9238bd862"
+"@fancyapps/ui@^5.0.28":
+  version "5.0.28"
+  resolved "https://registry.yarnpkg.com/@fancyapps/ui/-/ui-5.0.28.tgz#f0ef09a05e0e0be8815e839949a535850bd0a91b"
 
 "@fortawesome/fontawesome-free@^6.4.2":
   version "6.4.2"
@@ -1353,9 +1353,9 @@ abbrev@1, abbrev@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz"
 
-abcjs@^6.2.2:
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/abcjs/-/abcjs-6.2.2.tgz#e684a1276c77ec324ab7fcc3895b752954412459"
+abcjs@^6.2.3:
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/abcjs/-/abcjs-6.2.3.tgz#37c18f03b9c00ecfb87a246ed07a238247b53892"
 
 abortcontroller-polyfill@^1.7.5:
   version "1.7.5"
@@ -1406,9 +1406,9 @@ ajv@^8.6.0:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-algoliasearch-helper@3.14.2:
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.14.2.tgz#c34cfe6cefcfecd65c60bcb8bf9b68134472d28c"
+algoliasearch-helper@3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.15.0.tgz#d680783329920a3619a74504dccb97a4fb943443"
   dependencies:
     "@algolia/events" "^4.0.1"
 
@@ -1492,9 +1492,9 @@ arr-union@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/arr-union/-/arr-union-3.1.0.tgz"
 
-artalk@^2.6.3:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/artalk/-/artalk-2.6.3.tgz#f9fadf192e4326219cae30f34ef8854f66c824d8"
+artalk@^2.6.4:
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/artalk/-/artalk-2.6.4.tgz#c4c5d79ff6cb87b00eda0458d70da65ac0613bba"
   dependencies:
     abortcontroller-polyfill "^1.7.5"
     hanabi "^0.4.0"
@@ -2800,41 +2800,41 @@ heap@^0.2.6:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/heap/-/heap-0.2.7.tgz#1e6adf711d3f27ce35a81fe3b7bd576c2260a8fc"
 
-hexo-butterfly-extjs@^1.4.7:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.4.7.tgz#42ad4531622dd2b1d98f38ff7e162830d4797a7c"
+hexo-butterfly-extjs@^1.4.8:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.4.8.tgz#489ee77801841d75c5c99303e698210b6150c1e1"
   dependencies:
     "@docsearch/css" "^3.5.2"
     "@docsearch/js" "^3.5.2"
-    "@egjs/infinitegrid" "^4.10.1"
-    "@fancyapps/ui" "^5.0.24"
+    "@egjs/infinitegrid" "^4.11.0"
+    "@fancyapps/ui" "^5.0.28"
     "@fortawesome/fontawesome-free" "^6.4.2"
     "@waline/client" "^2.15.8"
-    abcjs "^6.2.2"
+    abcjs "^6.2.3"
     algoliasearch "^4.20.0"
     aplayer "^1.10.1"
-    artalk "^2.6.3"
+    artalk "^2.6.4"
     blueimp-md5 "^2.19.0"
     butterfly-extsrc "^1.1.3"
     disqusjs "^3.0.2"
     flickr-justified-gallery "^2.1.2"
     gitalk "^1.8.0"
     instant.page "^5.2.0"
-    instantsearch.js "^4.57.0"
+    instantsearch.js "^4.60.0"
     katex "^0.16.9"
     mathjax "^3.2.2"
-    medium-zoom "^1.0.8"
-    mermaid "^10.5.0"
+    medium-zoom "^1.1.0"
+    mermaid "^10.6.1"
     node-snackbar "^0.1.16"
     pace-js "^1.2.4"
     pangu "^4.0.7"
     pjax "^0.2.8"
     prismjs "^1.29.0"
     social-share.js "^1.0.16"
-    twikoo "^1.6.22"
-    typed.js "^2.0.16"
+    twikoo "^1.6.25"
+    typed.js "^2.1.0"
     valine "^1.5.1"
-    vanilla-lazyload "^17.8.4"
+    vanilla-lazyload "^17.8.5"
 
 hexo-cli@^4.3.0:
   version "4.3.0"
@@ -3158,18 +3158,18 @@ instant.page@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/instant.page/-/instant.page-5.2.0.tgz#578dd7050c601197a8ce1843749c6c4472259961"
 
-instantsearch.js@^4.57.0:
-  version "4.57.0"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.57.0.tgz#9165111679fcf5688f08c33078dcb21cd3ef2779"
+instantsearch.js@^4.60.0:
+  version "4.60.0"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.60.0.tgz#3b5476a5532efbc3fcb513a36905dc6c76d7e26d"
   dependencies:
     "@algolia/events" "^4.0.1"
-    "@algolia/ui-components-highlight-vdom" "^1.2.1"
-    "@algolia/ui-components-shared" "^1.2.1"
+    "@algolia/ui-components-highlight-vdom" "^1.2.2"
+    "@algolia/ui-components-shared" "^1.2.2"
     "@types/dom-speech-recognition" "^0.0.1"
     "@types/google.maps" "^3.45.3"
     "@types/hogan.js" "^3.0.0"
     "@types/qs" "^6.5.3"
-    algoliasearch-helper "3.14.2"
+    algoliasearch-helper "3.15.0"
     hogan.js "^3.0.2"
     htm "^3.0.0"
     preact "^10.10.0"
@@ -3671,17 +3671,17 @@ mdast-util-to-string@^3.1.0:
   dependencies:
     "@types/mdast" "^3.0.0"
 
-medium-zoom@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/medium-zoom/-/medium-zoom-1.0.8.tgz#2bd1fbcf2961fa7b0e318fe284462aa9b8608ed2"
+medium-zoom@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/medium-zoom/-/medium-zoom-1.1.0.tgz#6efb6bbda861a02064ee71a2617a8dc4381ecc71"
 
 merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
 
-mermaid@^10.5.0:
-  version "10.5.0"
-  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-10.5.0.tgz#e90512a65b5c6e29bd86cd04ce45aa31da2be76d"
+mermaid@^10.6.1:
+  version "10.6.1"
+  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-10.6.1.tgz#701f4160484137a417770ce757ce1887a98c00fc"
   dependencies:
     "@braintree/sanitize-url" "^6.0.1"
     "@types/d3-scale" "^4.0.3"
@@ -4944,9 +4944,9 @@ tslib@^2.0.3:
   version "2.4.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
 
-twikoo@^1.6.22:
-  version "1.6.22"
-  resolved "https://registry.yarnpkg.com/twikoo/-/twikoo-1.6.22.tgz#c1ad1008ff7f67ba5c6819c1335faa6738cf5a02"
+twikoo@^1.6.25:
+  version "1.6.26"
+  resolved "https://registry.yarnpkg.com/twikoo/-/twikoo-1.6.26.tgz#4f37e04efa3c19a0445dd6e49fc4f38bc4e472b3"
 
 type-check@~0.3.2:
   version "0.3.2"
@@ -4958,9 +4958,9 @@ type-fest@^0.16.0:
   version "0.16.0"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.16.0.tgz"
 
-typed.js@^2.0.16:
-  version "2.0.16"
-  resolved "https://registry.yarnpkg.com/typed.js/-/typed.js-2.0.16.tgz#2ba416821ec8a59521466f405784077eddb1d95e"
+typed.js@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/typed.js/-/typed.js-2.1.0.tgz#b97a06111a5f57d6a59acfdd36d4f9b891ee13b4"
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
@@ -5081,9 +5081,9 @@ valine@^1.5.1:
     storejs "^1.0.25"
     xss "^1.0.6"
 
-vanilla-lazyload@^17.8.4:
-  version "17.8.4"
-  resolved "https://registry.yarnpkg.com/vanilla-lazyload/-/vanilla-lazyload-17.8.4.tgz#4fb0934b8fffc9291b7864f1c107779eb60c4f1e"
+vanilla-lazyload@^17.8.5:
+  version "17.8.5"
+  resolved "https://registry.yarnpkg.com/vanilla-lazyload/-/vanilla-lazyload-17.8.5.tgz#d63ce6ec9caeb57b5db54bedebce9cb6d464b7f6"
 
 vary@~1.1.2:
   version "1.1.2"
